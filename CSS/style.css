@@ -585,9 +585,9 @@ nav {
   backdrop-filter: blur( 0px );
   -webkit-backdrop-filter: blur( 0px );
 }
-nav .title img {
-  /* max-width: 10%; */
-}
+/* nav .title img {
+  max-width: 10%;
+} */
 nav .title img:hover {
   background-color: var(--orange-color);
 }
@@ -739,9 +739,9 @@ nav ul li:hover a {
   z-index: -1;
   top: 50%;
 }
-.about .info img {
-  /* width: 50%; */
-}
+/* .about .info img {
+  width: 50%;
+} */
 /* ********************** section *********************** */
 section {
   padding: 5% 3rem;
@@ -770,8 +770,6 @@ section .cards .card {
   -webkit-backdrop-filter: blur( 3px );
   border-radius: 5px;
   text-align: justify;
-}
-section .cards #one {
 }
 section .cards .card .title {
   /* font-size: 2rem; */
@@ -853,9 +851,9 @@ section .cards .card p .dot {
   z-index: -1;
   top: 50%;
 }
-.objective .info img {
-  /* width: 40%; */
-}
+/* .objective .info img {
+  width: 40%;
+} */
 /* ********************* section-2 ******************** */
 .section-2 {
   background-color: var(--orange-color);
@@ -900,12 +898,12 @@ section .cards .card p .dot {
   padding: 0 0 5%;
   background-color: var(--blue-color);
 }
-.services .cards {
-  /* padding: 4rem 3rem; */
-  /* display: grid; */
-  /* grid-template-columns: repeat(2,1fr); */
-  /* grid-gap: 2rem; */
-}
+/* .services .cards {
+  padding: 4rem 3rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 2rem;
+} */
 .services .cards .card {
   /* padding: 30px; */
   position: relative;
@@ -977,10 +975,10 @@ section .cards .card p .dot {
   align-items: center;
   text-align: justify;
 }
-.contact .info img {
-  /* width: 50%; */
-  /* padding: 2rem; */
-}
+/* .contact .info img {
+  width: 50%;
+  padding: 2rem;
+} */
 /* .contact .info .inputs {
   padding-left: 2rem;
 } */
