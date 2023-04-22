@@ -706,7 +706,8 @@ nav ul li:hover a {
   width: 100%;
   background-color: var(--orange-color);
   top: 52%;
-  left: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: -1;
 }
 /* *************************about******************** */
