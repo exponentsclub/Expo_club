@@ -690,7 +690,7 @@ nav ul li:hover a {
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 50vh;
+  height: 35vw;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .section-landing  h2{
