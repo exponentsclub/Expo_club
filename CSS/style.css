@@ -74,6 +74,7 @@ ul {
   .landing::before {
     height: 30vh;
     width: 60vw;
+    background: rgba( 59, 126, 206, 0.4 );
   }
   .landing .info {
     padding-right: 0;
@@ -211,6 +212,7 @@ ul {
   .landing::before {
     height: 40vh;
     width: 60vw;
+    background: rgba( 245, 166, 35, 0.3 );
   }
   .landing .info {
     padding-right: 0;
@@ -624,7 +626,7 @@ nav ul li:hover a {
   z-index: -1;
   position: relative;
 }
-.landing::before{
+.landing::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -632,7 +634,7 @@ nav ul li:hover a {
   transform: translateY(-50%);
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-radius: 0 15px 15px 0;
-  background: rgba( 245, 166, 35, 0.3 );
+  
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 0px );
   -webkit-border-radius: 0 15px 15px 0;
