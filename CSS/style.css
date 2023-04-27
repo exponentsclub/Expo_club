@@ -1002,9 +1002,10 @@ section .cards .card p .dot {
 }
 .contact .info .inputs .message {
   padding: 15px;
+  padding-bottom: 3rem;
   border: 2px solid #ccc;
   width: 100%;
-  height: 150px;
+  /* height: 150px; */
   margin-bottom: 20px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
