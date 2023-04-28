@@ -658,7 +658,7 @@ nav ul li:hover a {
   margin-bottom: 10px;
 }
 .landing h3 {
-  color: var(--orange-color);
+  color: var(--blue-color);
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
