@@ -635,7 +635,7 @@ nav ul li:hover a {
 
 .label {
   z-index: 5;
-	background-color: var(--orange-color);
+	background-color: var(--blue-color);
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
@@ -652,7 +652,7 @@ nav ul li:hover a {
 }
 .label i {
   font-size: 0.9rem;
-  color: var(--blue-color);
+  color: var(--orange-color);
 }
 .label .ball {
 	background-color: #fff;
