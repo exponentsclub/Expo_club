@@ -799,6 +799,7 @@ nav ul li:hover a {
 }
 .about .info .card p span {
   position: relative;
+  color: var(--blue-color);
 }
 .about .info .card p span::before {
   content: '';
