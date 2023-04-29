@@ -597,7 +597,7 @@ nav {
   max-width: 10%;
 } */
 nav .title img:hover {
-  background-color: var(--orange-color);
+  background-color: #febc38;
 }
 nav ul {
   display: flex;
@@ -792,7 +792,7 @@ nav ul li:hover a {
   text-align: justify!important;
   line-height: 1.4;
   padding: 1rem 1.5rem;
-  color: var(--blue-color);
+  color: #002347;
   border: 2px solid var(--orange-color);
   margin-bottom: 2rem;
 }
@@ -910,6 +910,7 @@ section .cards .card p .dot {
 }
 .objective .info .text .txt {
   position: relative;
+  color: var(--blue-color);
 }
 .objective .info .text .txt::before {
   content: '';
