@@ -651,7 +651,7 @@ nav ul li:hover a {
 	-o-transform: scale(1.5);
 }
 .label i {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--orange-color);
 }
 .label .ball {
