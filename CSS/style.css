@@ -74,7 +74,7 @@ ul {
   .landing::before {
     height: 30vh;
     width: 60vw;
-    background: rgba( 59, 126, 206, 0.4 );
+    background: rgba( 245, 166, 35, 0.3 );
   }
   .landing .info {
     padding-right: 0;
