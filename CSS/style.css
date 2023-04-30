@@ -1,9 +1,10 @@
 :root{
-  /* side-bar */
+  /* vars */
   --orange-color: #febc38;
   --blue-color: #002347;
   --backgound-color: #f9f9f9;
   --orange-blured: rgba(254, 188, 56,0.25);
+  --landing-img: url(../images/landing-light.svg);
   /* side-bar-end */
   --black: black;
   --white: white;
@@ -18,6 +19,7 @@ body.dark {
   --orange-color:#002347;
   --blue-color: #febc38;
   --orange-blured: rgba(0, 35, 71,0.25);
+  --landing-img : url(../images/landing-night.svg);
 }
 * {
   -webkit-box-sizing: border-box;
@@ -71,7 +73,7 @@ ul {
   }
   /* **************************** landing ***************** */
   .landing {
-    background-image: url(../images/landing.jpg);
+    background-image: var(--landing-img);
     background-size: cover;
   }
   .landing img {
