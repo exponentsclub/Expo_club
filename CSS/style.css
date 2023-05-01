@@ -335,7 +335,7 @@ ul {
   }
   /* **************************** landing ***************** */
   .landing {
-    background-image: url(../images/landing.jpg);
+    background-image: var(--landing-img);
     background-size: cover;
   }
   .landing img {
