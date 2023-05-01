@@ -723,7 +723,7 @@ nav ul li:hover a {
   -o-transform: translate(-50%,-50%);
 }
 .landing h2 {
-  color: var(--blue-color);
+  color: var(--orange-color);
   font-weight: bolder;
   margin-bottom: 10px;
 }
@@ -741,7 +741,7 @@ nav ul li:hover a {
   top: 50%;
   width: 20%;
   height: 2px;
-  background-color: var(--orange-color);
+  background-color: var(--blue-color);
 }
 .landing h3::after {
   content: '';
@@ -750,7 +750,7 @@ nav ul li:hover a {
   top: 50%;
   width: 20%;
   height: 2px;
-  background-color: var(--orange-color);
+  background-color: var(--blue-color);
 }
 .landing .icons {
   position: absolute;
