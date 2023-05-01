@@ -4,7 +4,7 @@
   --blue-color: #002347;
   --backgound-color: #f9f9f9;
   --orange-blured: rgba(254, 188, 56,0.25);
-  --landing-img: url(../images/landing-light.svg);
+  --landing-img: url(../images/landing-light-2.svg);
   /* side-bar-end */
   --black: black;
   --white: white;
@@ -19,7 +19,7 @@ body.dark {
   --orange-color:#002347;
   --blue-color: #febc38;
   --orange-blured: rgba(0, 35, 71,0.25);
-  --landing-img : url(../images/landing-night.svg);
+  --landing-img : url(../images/landing-night-2.svg);
 }
 * {
   -webkit-box-sizing: border-box;
