@@ -636,6 +636,7 @@ nav ul li:hover a {
 }
 
 .label {
+  outline: 1.5px solid var(--orange-color);
   z-index: 5;
 	background-color: var(--blue-color);
 	border-radius: 50px;
