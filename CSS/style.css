@@ -595,6 +595,9 @@ nav {
   backdrop-filter: blur( 0px );
   -webkit-backdrop-filter: blur( 0px );
 }
+.nav-scroll {
+  background-color: red;
+}
 /* nav .title img {
   max-width: 10%;
 } */

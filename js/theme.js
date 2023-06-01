@@ -1,5 +1,4 @@
 const chk = document.getElementById('chk');
-let header = document.getElementById('header');
 chk.addEventListener('change', () => {
 	document.body.classList.toggle('dark');
 });
@@ -18,7 +17,21 @@ close_btn.addEventListener('click', () => {
 });
 
 // SCROLL EFFECT 
-window.scroll() == function (){
-	let value = scrollY;
-	value <= 616 ? header.style.position = relative : header.style.position = fixed;
-}
+const header = document.querySelector('nav');
+const sectionOne = document.querySelector('.landing');
+const sectionOneOption = {
+	rootMargin : "-100px 0px 0px 0px"
+};
+
+const sectionOneObserver = new intersectoinOberver(function(
+	entries,
+	sectionOneObserver
+){
+	if(!entry.isIntersecting) {
+		header.classList.add("nav-scroll");
+	}else {
+		header.classList.remove("nav-scroll");
+	};
+},sectionOneOption)
+
+sectionOneObserver.observe(sectionOne);
