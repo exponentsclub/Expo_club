@@ -17,21 +17,12 @@ close_btn.addEventListener('click', () => {
 });
 
 // SCROLL EFFECT 
-window.addEventListener("scroll", function(event) {
-  let scroll = window.scrollY;
-  let header = document.getElementById('header');
 
-  if (scroll <= 616) {
-    header.style.position = 'relative';
-  } else {
-    header.style.position = 'fixed';
-  }
-});
-// window.addEventListener("scroll",function(event){
-// 	let scroll = this.screenY;
-// 	if(scroll <= 616){
-// 		document.body.header.style.postion = relative;
-// 	} else{
-// 		document.body.header.style.postion = fixed;
-// 	}
-// })
+window.addEventListener("scroll",function(event){
+	let scroll = this.screenY;
+	if(scroll <= 616){
+		document.body.header.style.postion = "relative";
+	} else{
+		document.body.header.style.postion = "fixed";
+	}
+})
