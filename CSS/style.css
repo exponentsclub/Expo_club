@@ -584,7 +584,6 @@ ul {
 /* *******************side bare *********************** */
 nav {
   z-index: 6;
-  position: fixed;
   display: flex;
   width: 100%;
   overflow: hidden;
