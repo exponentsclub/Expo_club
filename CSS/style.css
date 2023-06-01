@@ -607,15 +607,7 @@ nav ul {
 nav ul li {
   position: relative;
 }
-
-nav ul li a {
-  font-weight: 600;
-  color: var(--orange-color);
-}
-nav ul li:hover a {
-  color: var(--blue-color);
-}
-nav ul li a::before {
+nav ul li::before {
   content: "";
   position: absolute;
   width: 0;
@@ -623,9 +615,27 @@ nav ul li a::before {
   bottom: 0;
   height: 2px;
   background-color: var(--orange-color);
+  transform: translateX(-50%);
+  transition: 0.4s ease;
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -ms-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
-nav ul li:hover a::before {
+nav ul li:hover:before {
   width: 100%;
+}
+nav ul li a {
+  font-weight: 600;
+  
+  color: var(--orange-color);
+}
+nav ul li:hover a {
+  color: var(--blue-color);
 }
 /* ********************************* theme-section ******************************** */
 .theme-section {
