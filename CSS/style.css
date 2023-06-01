@@ -632,8 +632,7 @@ nav ul li:hover:before {
 nav ul li a {
   font-weight: 600;
   
-  /* color: var(--orange-color); */
-  color: white;
+  color: var(--orange-color);
 }
 nav ul li:hover a {
   color: var(--blue-color);
