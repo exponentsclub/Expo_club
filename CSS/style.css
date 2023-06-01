@@ -854,7 +854,7 @@ section .cards .card {
   /* font-size: 1.1rem; */
   color: white;
   line-height: 1.5;
-  background: rgba( 255, 80, 3, 0.25 );
+  background: var(--orange-blured);
   backdrop-filter: blur( 3px );
   -webkit-backdrop-filter: blur( 3px );
   border-radius: 5px;
