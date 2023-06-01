@@ -19,7 +19,7 @@ close_btn.addEventListener('click', () => {
 // SCROLL EFFECT 
 window.addEventListener("scroll", function(event) {
   let scroll = window.scrollY;
-  let header = document.querySelector('header');
+  let header = document.getElementById('header');
 
   if (scroll <= 616) {
     header.style.position = 'relative';
