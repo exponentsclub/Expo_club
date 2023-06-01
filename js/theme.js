@@ -1,5 +1,5 @@
 const chk = document.getElementById('chk');
-
+let header = document.getElementById('header');
 chk.addEventListener('change', () => {
 	document.body.classList.toggle('dark');
 });
@@ -16,3 +16,9 @@ floating_btn.addEventListener('click', () => {
 close_btn.addEventListener('click', () => {
 	social_panel_container.classList.remove('visible')
 });
+
+// SCROLL EFFECT 
+window.scroll() == function (){
+	let value = scrollY;
+	value <= 616 ? header.style.position = relative : header.style.position = fixed;
+}
