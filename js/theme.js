@@ -17,21 +17,11 @@ close_btn.addEventListener('click', () => {
 });
 
 // SCROLL EFFECT 
-const header = document.querySelector('nav');
-const sectionOne = document.querySelector('.landing');
-const sectionOneOption = {
-	rootMargin : "-100px 0px 0px 0px"
-};
-
-const sectionOneObserver = new intersectoinOberver(function(
-	entries,
-	sectionOneObserver
-){
-	if(!entry.isIntersecting) {
-		header.classList.add("nav-scroll");
-	}else {
-		header.classList.remove("nav-scroll");
-	};
-},sectionOneOption)
-
-sectionOneObserver.observe(sectionOne);
+window.addEventListener("scroll",function(event){
+	let scroll = this.screenY;
+	if(scroll <= 616){
+		document.body.header.style.postion = relative;
+	} else{
+		document.body.header.style.postion = fixed;
+	}
+})
