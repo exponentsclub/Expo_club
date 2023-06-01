@@ -607,7 +607,15 @@ nav ul {
 nav ul li {
   position: relative;
 }
-nav ul li::before {
+
+nav ul li a {
+  font-weight: 600;
+  color: var(--orange-color);
+}
+nav ul li:hover a {
+  color: var(--blue-color);
+}
+nav ul li a::before {
   content: "";
   position: absolute;
   width: 0;
@@ -616,16 +624,8 @@ nav ul li::before {
   height: 2px;
   background-color: var(--orange-color);
 }
-nav ul li:hover:before {
+nav ul li:hover a::before {
   width: 100%;
-}
-nav ul li a {
-  font-weight: 600;
-  
-  color: var(--orange-color);
-}
-nav ul li:hover a {
-  color: var(--blue-color);
 }
 /* ********************************* theme-section ******************************** */
 .theme-section {
